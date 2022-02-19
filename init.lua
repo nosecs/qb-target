@@ -1178,6 +1178,28 @@ Config.Peds = {
 			   },
 			   currentpednumber = 0,
 			 },
+			 [36] = { -- Pop's Diner
+			   model = "a_f_y_gencaspat_01",
+			  coords = vector4(1588.86, 6456.58, 26.01, 150.7),
+			  gender = 'female',
+				minusOne = true,
+				freeze = true,
+				invincible = true,
+				blockevents = true,
+				scenario = 'PROP_HUMAN_STAND_IMPATIENT', 
+				target = { 
+					options = {
+						{
+							type = "client",
+							event = "qb-shops:marketshop",
+							icon = "fas fa-shopping-basket",
+							label = "Pop's Diner",
+						},
+					},
+					distance = 2.5,
+				},
+				currentpednumber = 0,
+			  },
 
 }
 
