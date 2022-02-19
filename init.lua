@@ -48,79 +48,6 @@ Config.MenuControlKey = 238 -- Control for keypress detection on the context men
 
 -- These are all empty for you to fill in, refer to the .md files for help in filling these in
 
-Config.GlobalPlayerOptions = {
-    options = {
-        {
-            type = "client",
-            event = "police:client:EscortPlayer",
-            icon = "fas fa-hand-holding",
-            label = "Escort Individual",
-        },
-        {
-            type = "client",
-            event = "police:client:CuffPlayer",
-            icon = "fas fa-hands",
-            label = "Cuff / Uncuff Individual",
-            item = 'handcuffs',
-        },
-        {
-            type = "client",
-            event = "police:server:KidnapPlayer",
-            icon = "fas fa-hand-holding",
-            label = "Kidnap Individual",
-        },
-        {
-            type = "client",
-            event = "police:client:RobPlayer",
-            icon = "fas fa-user-secret",
-            label = "Rob Individual",
-        },
-    }
-}
-
-Config.GlobalVehicleOptions = {
-    options = {
-        {
-            type = "client",
-            event = "police:client:ImpoundVehicle",
-            icon = "fas fa-car",
-            label = "Impound Vehicle",
-            job = 'police',
-        },
-        {
-            type = "client",
-            event = "vehiclekeys:client:GiveKeys",
-            icon = "fas fa-key",
-            label = "Give Vehicle Keys",
-        },
-        {
-            type = "client",
-            event = "police:client:EscortPlayer",
-            icon = "fas fa-hand-holding",
-            label = "Escort Out Of Vehicle",
-        },
-        {
-            type = "client",
-            event = 'qb-trunk:client:GetIn',
-            icon = "fas fa-truck",
-            label = "Hop Inside Trunk",
-        },
-        {
-            type = "client",
-            event = "police:client:PutPlayerInVehicle",
-            icon = "fas fa-chevron-circle-left",
-            label = "Place Inside Vehicle",
-        },
-        {
-            type = "client",
-            event = "police:client:SetPlayerOutVehicle",
-            icon = "fas fa-chevron-circle-right",
-            label = "Take Out Of Vehicle",
-        },
-    },
-    distance = 2.5,
-}
-
 
 Config.CircleZones = {
 
@@ -351,7 +278,46 @@ Config.GlobalPedOptions = {
 }
 
 Config.GlobalVehicleOptions = {
-
+	options = {
+        {
+            type = "client",
+            event = "police:client:ImpoundVehicle",
+            icon = "fas fa-car",
+            label = "Impound Vehicle",
+            job = 'police',
+        },
+        {
+            type = "client",
+            event = "vehiclekeys:client:GiveKeys",
+            icon = "fas fa-key",
+            label = "Give Vehicle Keys",
+        },
+        {
+            type = "client",
+            event = "police:client:EscortPlayer",
+            icon = "fas fa-hand-holding",
+            label = "Escort Out Of Vehicle",
+        },
+        {
+            type = "client",
+            event = 'qb-trunk:client:GetIn',
+            icon = "fas fa-truck",
+            label = "Hop Inside Trunk",
+        },
+        {
+            type = "client",
+            event = "police:client:PutPlayerInVehicle",
+            icon = "fas fa-chevron-circle-left",
+            label = "Place Inside Vehicle",
+        },
+        {
+            type = "client",
+            event = "police:client:SetPlayerOutVehicle",
+            icon = "fas fa-chevron-circle-right",
+            label = "Take Out Of Vehicle",
+        },
+    },
+    distance = 2.5,
 }
 
 Config.GlobalObjectOptions = {
@@ -359,7 +325,33 @@ Config.GlobalObjectOptions = {
 }
 
 Config.GlobalPlayerOptions = {
-
+	options = {
+        {
+            type = "client",
+            event = "police:client:EscortPlayer",
+            icon = "fas fa-hand-holding",
+            label = "Escort Individual",
+        },
+        {
+            type = "client",
+            event = "police:client:CuffPlayer",
+            icon = "fas fa-hands",
+            label = "Cuff / Uncuff Individual",
+            item = 'handcuffs',
+        },
+        {
+            type = "client",
+            event = "police:server:KidnapPlayer",
+            icon = "fas fa-hand-holding",
+            label = "Kidnap Individual",
+        },
+        {
+            type = "client",
+            event = "police:client:RobPlayer",
+            icon = "fas fa-user-secret",
+            label = "Rob Individual",
+        },
+    }
 }
 
 Config.Peds = {
