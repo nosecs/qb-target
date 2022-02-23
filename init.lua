@@ -351,6 +351,12 @@ Config.GlobalPlayerOptions = {
             icon = "fas fa-user-secret",
             label = "Rob Individual",
         },
+        {
+            type = "client",
+            event = "A5:Client:TakeHostage",
+            icon = "fas fa-user-secret",
+            label = "Take Hostage",
+        },
     }
 }
 
