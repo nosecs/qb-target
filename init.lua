@@ -1268,6 +1268,50 @@ Config.Peds = {
 				},
 				currentpednumber = 0,
 			  },
+			  [37] = { -- BeanMachine Leqion Square
+				model = "a_f_y_bevhills_01",
+			   coords = vector4(121.46, -1040.92, 29.28, 65.34),
+			   gender = 'female',
+				 minusOne = true,
+				 freeze = true,
+				 invincible = true,
+				 blockevents = true,
+				 scenario = 'PROP_HUMAN_STAND_IMPATIENT', 
+				 target = { 
+					 options = {
+						 {
+							 type = "client",
+							 event = "qb-shops:marketshop",
+							 icon = "fas fa-shopping-basket",
+							 label = "Pop's Diner",
+						 },
+					 },
+					 distance = 2.5,
+				 },
+				 currentpednumber = 0,
+			   },
+			   [38] = { -- BeanMachine Leqion Square
+				 model = "a_m_y_bevhills_01",
+				coords = vector4(122.84, -1037.34, 29.28, 66.78),
+				gender = 'male',
+				  minusOne = true,
+				  freeze = true,
+				  invincible = true,
+				  blockevents = true,
+				  scenario = 'PROP_HUMAN_STAND_IMPATIENT', 
+				  target = { 
+					  options = {
+						  {
+							  type = "client",
+							  event = "qb-shops:marketshop",
+							  icon = "fas fa-shopping-basket",
+							  label = "Pop's Diner",
+						  },
+					  },
+					  distance = 2.5,
+				  },
+				  currentpednumber = 0,
+				},
 
 }
 
